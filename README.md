@@ -49,7 +49,7 @@ We are providing a set of **career** dataset, This dataset having total **1473**
 
 ## Task 1 - Node, Express and Mongo [40 points]
 
-- [Download the dataset from here](./data/career-data.json) and dump the data into your local mongodb server.
+- [Download the dataset from here](./data/career-data.json) and dump the data into your local mongodb server. Click on the link then click on `Raw` option then save the json file.
   - Db name should be `assestment_3_db` and collection name should be `career`.
   - Node and monogo DB connection credential should maintain via a configuartion file.
 - **[ 30 Points ]** Write a `GET` API, endpoint would be `/search`. this endpoint should accept 2 parameters: `text` and `limit`.
